@@ -11,7 +11,7 @@ renderer.setAnimationLoop( animate );
 document.body.appendChild( renderer.domElement );
 
 const geometry = new THREE.IcosahedronGeometry( 1.0,3 );
-const material = new THREE.MeshBasicMaterial( { color: 0x00ff00 , wireframe:true} );
+const material = new THREE.MeshBasicMaterial( { color: 0x00ff00 , wireframe: true} );
 const shape = new THREE.Mesh( geometry, material );
 scene.add( shape );
 
