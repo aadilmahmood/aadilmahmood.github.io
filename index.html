@@ -3,31 +3,33 @@
 
 <head>
     <title>Aadil's Website</title>
-
-    <script type="importmap">
-        {
-          "imports": {
-            "three": "https://cdn.jsdelivr.net/npm/three@0.176.0/build/three.module.js",
-            "jsm/": "https://cdn.jsdelivr.net/npm/three@0.176.0/examples/jsm/"
-          }
-        }
-        </script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 
 <body>
-    <h1>Aadil's First Website</h1>
-   
-    <p>This is still a work in progress...</p>
-    <a href="about_me.html">About Me</a>
-    <img width="200" height="200" src="penguin_icon.png">
-    <ol>
-
-        <li><em>Emphasized Text(Italic)</em></li>
-        <li><strong>Strong Text(Bold)</strong></li>
-        <li>Normal Text</li>
-    </ol>	
-
-    <script type="module" src="index.js"> </script>
+    <div id="header">
+        <div>
+            <h1>Aadil Mahmood</h1>
+            <p>Welcome to Aadil's Website</p>
+        </div>
+        <nav>
+            <div class="nav_element"><a href="index.html">Home</a></div>
+            <div class="nav_element"><a href="about_me.html">About Me</a></div>
+            <div class="nav_element"><a href="work_experience.html">Work Experience</a></div>
+            <div class="nav_element"><a href="personal.html">Personal</a></div>
+        </nav>
+        
+    </div>
+    <main>
+        <div id="contents">
+            <h1>Contents</h1>
+            <p>Words Words Words</p>
+        </div>
+    </main>
+    <div id="footer">
+        This was made by Aadil Mahmood
+    </div>
 </body>
 
 </html>

@@ -1,0 +1,55 @@
+body{
+    background-color: #FCDBB0;
+}
+
+#header{
+    border:10px solid black;
+    padding: 5px;
+}
+nav{
+    display:flex;
+}
+.nav_element{
+    border: 2px solid black;
+    padding:3px;
+    margin:3px;
+}
+main{
+    display:flex;
+}
+
+#footer{
+    border:10px solid black;
+    padding: 5px;
+}
+
+
+.parent{
+    position: relative;
+    border: 5px solid black;
+    
+}
+.child{
+    position:absolute;
+    top:50%;
+    left:50%;
+}
+.child:hover span{
+  display: inline-block;
+}
+    
+
+.star{
+    width:10px;
+    height:10px;
+    border:1px solid black
+}
+.child span {
+  display: none;
+}
+
+.image{
+    max-width: 100%;
+    max-height:auto;
+}
+
